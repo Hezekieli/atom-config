@@ -1,0 +1,106 @@
+"*":
+  Ensime:
+    sbtExec: "/usr/local/Cellar/sbt/"
+  "activate-power-mode":
+    comboMode:
+      activationThreshold: [
+        "10"
+        "50"
+        "100"
+        "200"
+        "500"
+      ]
+      enabled: false
+      multiplier: false
+    particles:
+      colours:
+        fixed: "#ff40ff"
+      size:
+        max: 3
+        min: 1
+      spawnCount:
+        max: 20
+        min: 10
+    playAudio:
+      audioclip: "../audioclips/typewriter.wav"
+    plugins:
+      playAudio: false
+      screenShake: false
+    screenShake:
+      enabled: false
+  "atom-beautify":
+    general:
+      _analyticsUserId: "4b6992e9-4a3e-4370-b769-502787f34177"
+    js: {}
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  core:
+    disabledPackages: [
+      "react"
+      "pigments"
+      "nice-index"
+      "json-colorer"
+      "multi-wrap-guide"
+      "notifications"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/hperakyl/gitworkspace"
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "paraiso-dark"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "fa400fde-c3ff-4808-832d-e3008089795f"
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".jsx"
+      ".json"
+      ".node"
+    ]
+    jumpToImport: true
+    skipIntermediate: false
+  "linter-eslint":
+    disableFSCache: true
+    disableWhenNoEslintConfig: false
+    eslintrcPath: "./node_modules/polar-ui-framework/.eslintrc.json"
+    fixOnSave: true
+  "linter-ui-default":
+    panelHeight: 162
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "nice-index":
+    fileNames: [
+      "index.jsx"
+    ]
+  pigments: {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      showInStatusBar: true
+  "tree-view":
+    alwaysOpenExisting: true
+  welcome:
+    showOnStartup: false

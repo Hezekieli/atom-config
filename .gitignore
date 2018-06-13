@@ -1,0 +1,16 @@
+blob-store
+compile-cache
+dev
+storage
+.apm
+.node-gyp
+.npm
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!config.cson
+!package.list
+
